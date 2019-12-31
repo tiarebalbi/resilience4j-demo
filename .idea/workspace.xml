@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ff5d467-988c-464d-8e98-b0e19ed20228" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="resilience4j-demo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="resilience4j-demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="resilience4j-demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VkyHRfKqqawzxzSe3x69oPZjRh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.tiarebalbi.resilience.common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.com.tiarebalbi.resilience.AppKt">
+    <configuration name="AppTest.testAppHasAGreeting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.tiarebalbi.resilience.AppTest.testAppHasAGreeting&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="resilience4j-demo [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="com.tiarebalbi.resilience.AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="resilience4j-demo.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.tiarebalbi.resilience.AppKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.com.tiarebalbi.resilience.AppKt" />
+        <item itemvalue="Gradle.resilience4j-demo [build]" />
+        <item itemvalue="Gradle.AppTest.testAppHasAGreeting" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ff5d467-988c-464d-8e98-b0e19ed20228" name="Default Changelist" comment="" />
+      <created>1577811299823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577811299823</updated>
+      <workItem from="1577811303395" duration="10838000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="854" y="397" key="#Project_Structure" timestamp="1577811416144">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state x="854" y="397" key="#Project_Structure/0.23.2509.1417@0.23.2509.1417" timestamp="1577811416144" />
+    <state x="1036" y="454" key="#com.intellij.ide.util.MemberChooser" timestamp="1577812339691">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state x="1036" y="454" key="#com.intellij.ide.util.MemberChooser/0.23.2509.1417@0.23.2509.1417" timestamp="1577812339691" />
+    <state width="2467" height="427" key="GridCell.Tab.0.bottom" timestamp="1577822040565">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state width="2467" height="427" key="GridCell.Tab.0.bottom/0.23.2509.1417@0.23.2509.1417" timestamp="1577822040565" />
+    <state width="2467" height="427" key="GridCell.Tab.0.center" timestamp="1577822040564">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state width="2467" height="427" key="GridCell.Tab.0.center/0.23.2509.1417@0.23.2509.1417" timestamp="1577822040564" />
+    <state width="2467" height="427" key="GridCell.Tab.0.left" timestamp="1577822040563">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state width="2467" height="427" key="GridCell.Tab.0.left/0.23.2509.1417@0.23.2509.1417" timestamp="1577822040563" />
+    <state width="2467" height="427" key="GridCell.Tab.0.right" timestamp="1577822040564">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state width="2467" height="427" key="GridCell.Tab.0.right/0.23.2509.1417@0.23.2509.1417" timestamp="1577822040564" />
+    <state width="2467" height="427" key="GridCell.Tab.1.bottom" timestamp="1577822040491">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state width="2467" height="427" key="GridCell.Tab.1.bottom/0.23.2509.1417@0.23.2509.1417" timestamp="1577822040491" />
+    <state width="2467" height="427" key="GridCell.Tab.1.center" timestamp="1577822040490">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state width="2467" height="427" key="GridCell.Tab.1.center/0.23.2509.1417@0.23.2509.1417" timestamp="1577822040490" />
+    <state width="2467" height="427" key="GridCell.Tab.1.left" timestamp="1577822040490">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state width="2467" height="427" key="GridCell.Tab.1.left/0.23.2509.1417@0.23.2509.1417" timestamp="1577822040490" />
+    <state width="2467" height="427" key="GridCell.Tab.1.right" timestamp="1577822040491">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state width="2467" height="427" key="GridCell.Tab.1.right/0.23.2509.1417@0.23.2509.1417" timestamp="1577822040491" />
+    <state x="742" y="313" key="SettingsEditor" timestamp="1577812785509">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state x="742" y="313" key="SettingsEditor/0.23.2509.1417@0.23.2509.1417" timestamp="1577812785509" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1577812817408">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.2509.1417@0.23.2509.1417" timestamp="1577812817408" />
+    <state x="913" y="488" width="683" height="486" key="find.popup" timestamp="1577814432145">
+      <screen x="0" y="23" width="2509" height="1417" />
+    </state>
+    <state x="913" y="488" width="683" height="486" key="find.popup/0.23.2509.1417@0.23.2509.1417" timestamp="1577814432145" />
+  </component>
+</project>
