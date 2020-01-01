@@ -67,7 +67,7 @@ class CircuitBreakerDemo : DemoCase {
     private fun recovery(it: Throwable?): Response? {
         if (it is RequestException) {
             println("Retrying due to: ${it.message}")
-            Thread.sleep(1000) // Sleep another second
+            Thread.sleep(500) // Sleep another second
             return API.get("${it.url}/retry")
         }
 
