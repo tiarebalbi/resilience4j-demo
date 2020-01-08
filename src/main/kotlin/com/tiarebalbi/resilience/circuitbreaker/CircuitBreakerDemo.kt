@@ -11,7 +11,7 @@ import io.vavr.control.Try
 import kotlin.system.measureTimeMillis
 
 class CircuitBreakerDemo : DemoCase {
-    override suspend fun run() {
+    override fun run() {
         println("---- Running CircuitBreakerDemo ----")
 
         // Config
@@ -72,9 +72,4 @@ class CircuitBreakerDemo : DemoCase {
 
         return API.get("${it?.message}/retry")
     }
-}
-
-suspend fun main() {
-    // Circuit Breaker Demo
-    CircuitBreakerDemo().run()
 }
