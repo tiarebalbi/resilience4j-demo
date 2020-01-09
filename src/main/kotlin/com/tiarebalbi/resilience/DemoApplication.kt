@@ -9,7 +9,7 @@ class DemoApplication
 
 fun main(args: Array<String>) {
     // Circuit Breaker Demo
-    CircuitBreakerDemo().run()
+    //CircuitBreakerDemo().run()
 
     // Run Spring Boot app
     runApplication<DemoApplication>(*args)
