@@ -1,3 +1,5 @@
+
+
 resilience4j.bulkhead:
   configs:
     default:
@@ -18,3 +20,33 @@ resilience4j.thread-pool-bulkhead:
       maxThreadPoolSize: 1
       coreThreadPoolSize: 1
       queueCapacity: 1
+
+
+resilience4j.retry:
+  configs:
+    default:
+      maxRetryAttempts: 2
+      waitDuration: 300
+      retryExceptions:
+        - io.github.resilience4j.bulkhead.BulkheadFullException
+      ignoreExceptions:
+        - com.tiarebalbi.resilience.retry.BankTransactionException
+  instances:
+    bankService:
+      maxRetryAttempts: 3
+      waitDuration: 3s
+      enableExponentialBackoff: true
+      exponentialBackoffMultiplier: 2
+      ignoreExceptions:
+        - com.tiarebalbi.resilience.retry.BankTransactionException
+
+server:
+  error:
+    include-stacktrace: on_trace_param
+  port: 9080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: retryevents,bulkheadevents, retry, bulkhead, info, tracedump, health, prometheus

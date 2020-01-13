@@ -26,9 +26,11 @@ dependencies {
     val resilience4jVersion: String by project
 
     implementation("io.github.resilience4j:resilience4j-spring-boot2:${resilience4jVersion}")
+    implementation("io.github.resilience4j:resilience4j-micrometer:${resilience4jVersion}")
     implementation("io.github.resilience4j:resilience4j-circuitbreaker:${resilience4jVersion}")
     implementation("io.github.resilience4j:resilience4j-reactor:${resilience4jVersion}")
 
+    implementation("io.micrometer:micrometer-registry-prometheus")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-starter-aop")
