@@ -1,3 +1,9 @@
+management.endpoints.web.exposure.include: '*'
+management.endpoint.health.show-details: always
+
+management.health.diskspace.enabled: false
+management.health.circuitbreakers.enabled: true
+management.health.ratelimiters.enabled: true
 
 
 resilience4j.bulkhead:
@@ -40,13 +46,29 @@ resilience4j.retry:
       ignoreExceptions:
         - com.tiarebalbi.resilience.retry.BankTransactionException
 
+resilience4j.ratelimiter:
+  configs:
+    default:
+      registerHealthIndicator: false
+      limitForPeriod: 10
+      limitRefreshPeriod: 1s
+      timeoutDuration: 0
+      eventConsumerBufferSize: 100
+  instances:
+    stockAPI:
+      limitForPeriod: 100
+      limitRefreshPeriod: 1s
+      timeoutDuration: 50
+      registerHealthIndicator: true
+      subscribeForEvents: true
+
+
 server:
   error:
     include-stacktrace: on_trace_param
   port: 9080
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: retryevents,bulkheadevents, retry, bulkhead, info, tracedump, health, prometheus
+logging:
+  level:
+    org:
+      springframework: debug

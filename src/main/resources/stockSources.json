@@ -1,0 +1,101 @@
+[
+  {
+    "symbol": "BA",
+    "name": "The Boeing Company",
+    "type": "Equity",
+    "region": "United States",
+    "marketOpen": "09:30",
+    "marketClose": "16:00",
+    "timezone": "UTC-05",
+    "currency": "USD",
+    "matchScore": "1.0000"
+  },
+  {
+    "symbol": "BABA",
+    "name": "Alibaba Group Holding Limited",
+    "type": "Equity",
+    "region": "United States",
+    "marketOpen": "09:30",
+    "marketClose": "16:00",
+    "timezone": "UTC-05",
+    "currency": "USD",
+    "matchScore": "0.8000"
+  },
+  {
+    "symbol": "BAC",
+    "name": "Bank of America Corporation",
+    "type": "Equity",
+    "region": "United States",
+    "marketOpen": "09:30",
+    "marketClose": "16:00",
+    "timezone": "UTC-05",
+    "currency": "USD",
+    "matchScore": "0.6667"
+  },
+  {
+    "symbol": "BIDU",
+    "name": "Baidu Inc.",
+    "type": "Equity",
+    "region": "United States",
+    "marketOpen": "09:30",
+    "marketClose": "16:00",
+    "timezone": "UTC-05",
+    "currency": "USD",
+    "matchScore": "0.5714"
+  },
+  {
+    "symbol": "BLDP",
+    "name": "Ballard Power Systems Inc.",
+    "type": "Equity",
+    "region": "United States",
+    "marketOpen": "09:30",
+    "marketClose": "16:00",
+    "timezone": "UTC-05",
+    "currency": "USD",
+    "matchScore": "0.4000"
+  },
+  {
+    "symbol": "GOLD",
+    "name": "Barrick Gold Corporation",
+    "type": "Equity",
+    "region": "United States",
+    "marketOpen": "09:30",
+    "marketClose": "16:00",
+    "timezone": "UTC-05",
+    "currency": "USD",
+    "matchScore": "0.3333"
+  },
+  {
+    "symbol": "BHC",
+    "name": "Bausch Health Companies Inc.",
+    "type": "Equity",
+    "region": "United States",
+    "marketOpen": "09:30",
+    "marketClose": "16:00",
+    "timezone": "UTC-05",
+    "currency": "USD",
+    "matchScore": "0.3333"
+  },
+  {
+    "symbol": "BZUN",
+    "name": "Baozun Inc.",
+    "type": "Equity",
+    "region": "United States",
+    "marketOpen": "09:30",
+    "marketClose": "16:00",
+    "timezone": "UTC-05",
+    "currency": "USD",
+    "matchScore": "0.3333"
+  },
+  {
+    "symbol": "BAYRY",
+    "name": "Bayer Aktiengesellschaft",
+    "type": "Equity",
+    "region": "United States",
+    "marketOpen": "09:30",
+    "marketClose": "16:00",
+    "timezone": "UTC-05",
+    "currency": "USD",
+    "matchScore": "0.1538"
+  }
+]
