@@ -23,14 +23,24 @@ class StockRestController(private val stockData: List<Stock>) {
 
     @GetMapping("/{symbol}")
     fun searchStock(@PathVariable symbol: String): Stock =
-        stockData.firstOrNull { it.symbol.toLowerCase() == symbol.toLowerCase() }
-            ?: throw DetailsNotFound("Stock $symbol not found")
+        stockData.findBySymbol(symbol)
 
     @ExceptionHandler(RequestNotPermitted::class)
-    fun exceptionHandler(exception: RequestNotPermitted): ResponseEntity<ErrorDetails> = ResponseEntity(
+    fun exceptionHandler(exception: RequestNotPermitted): ResponseEntity<ErrorDetails> =
+        asResponseEntityWith("You reach the maximum number of API calls")
+}
+
+fun List<Stock>.findBySymbol(symbol: String): Stock {
+    return this.firstOrNull { it.symbol.toLowerCase() == symbol.toLowerCase() }
+        ?: throw DetailsNotFoundException("Stock $symbol not found")
+}
+
+fun asResponseEntityWith(message: String): ResponseEntity<ErrorDetails> {
+    return ResponseEntity(
         ErrorDetails(
-            "You reach the maximum number of API calls in parallel",
+            message,
             LocalDateTime.now()
-        ), HttpStatus.FORBIDDEN
+        ), HttpStatus.TOO_MANY_REQUESTS
     )
 }
+

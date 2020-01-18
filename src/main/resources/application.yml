@@ -47,13 +47,6 @@ resilience4j.retry:
         - com.tiarebalbi.resilience.retry.BankTransactionException
 
 resilience4j.ratelimiter:
-  configs:
-    default:
-      registerHealthIndicator: false
-      limitForPeriod: 10
-      limitRefreshPeriod: 1s
-      timeoutDuration: 0
-      eventConsumerBufferSize: 100
   instances:
     stockAPI:
       limitForPeriod: 100
@@ -67,8 +60,3 @@ server:
   error:
     include-stacktrace: on_trace_param
   port: 9080
-
-logging:
-  level:
-    org:
-      springframework: debug
